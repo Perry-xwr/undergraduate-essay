@@ -1,0 +1,21 @@
+env_bishe/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.log
+*.tmp
+~$*
+*.docx
+*.pdf
+# Unclassified local image; keep the named experiment figures.
+images/U@2ODTBRHFA0IAO@{F1W5F6.png

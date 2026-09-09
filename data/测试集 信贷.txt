@@ -1,0 +1,395 @@
+保持 Account Balance 和 Credit Amount 不变，限制 Age (years) 在 25 到 45 之间，令 Creditability 达到最大化。
+
+约束 Duration of Credit (month) 不超过 24，Purpose 锁定，优化目标为 Creditability 逼近 1.0。
+
+将 Payment Status of Previous Credit 和 Value Savings/Stocks 固定，Length of current employment 的区间设为 [2, 5]，寻找使 Creditability 最大的方案。
+
+在 Instalment per cent 不低于 2 且 Sex & Marital Status 不高于 3 的前提下，令 Creditability 达到最大值。
+
+维持 Guarantors 现状，令 Duration in Current address 在 1 到 4 之间波动，要求 Creditability 最大化。
+
+设定 Most valuable available asset 为常量，Age (years) 介于 30 至 50，最大化 Creditability。
+
+锁定 Concurrent Credits，令 Type of apartment 在 1 到 3 之间变动，使 Creditability 逼近 1.0。
+
+在 No of Credits at this Bank 和 Occupation 固定的前提下，No of dependents 不超过 2，求 Creditability 最大化。
+
+设定 Telephone 和 Foreign Worker 为常量，Credit Amount 不得低于 1000，求 Creditability 的最大化方案。
+
+条件：Account Balance 锁定，Duration of Credit (month) 范围 12-36。目标：Creditability 最大化。
+
+固定 Payment Status of Previous Credit，确保 Purpose 不超过 5，寻找 Creditability 的最优极大值。
+
+保持 Credit Amount 和 Value Savings/Stocks 不变，Length of current employment 控制在 3 上下，使 Creditability 最大化。
+
+Instalment per cent 不允许改变，Sex & Marital Status 和 Guarantors 必须小于 3，优化 Creditability 至最大。
+
+在 Duration in Current address 锁定的情况下，限制 Most valuable available asset 大于 2，使 Creditability 逼近 1.0。
+
+约束 Age (years) 介于 20 至 40 之间，Concurrent Credits 保持不变，最大化 Creditability。
+
+令 Type of apartment 固定，No of Credits at this Bank 不超过 2，求 Creditability 的极大值。
+
+维持 Occupation 和 No of dependents 原值，Telephone 限定在 1 到 2，令 Creditability 最大化。
+
+Foreign Worker 锁定，Account Balance 至少为 2，Duration of Credit (month) 最多为 48，最大化 Creditability。
+
+固定 Payment Status of Previous Credit 和 Purpose，Credit Amount 约束在 500 到 5000 之间，要求 Creditability 逼近 1.0。
+
+Value Savings/Stocks 保持不变，Length of current employment 大于等于 2，寻找使 Creditability 最大的参数组合。
+
+约束 Instalment per cent 和 Sex & Marital Status 不变，Guarantors 限制在 2 以下，优化目标为 Creditability 逼近 1.0。
+
+锁定 Duration in Current address，令 Most valuable available asset 在 1 到 4 之间变动，使 Creditability 最大化。
+
+在 Age (years) 和 Concurrent Credits 固定的条件下，Type of apartment 不低于 2，求 Creditability 最大化。
+
+维持 No of Credits at this Bank 现状，Occupation 控制在 [2, 4] 区间，最大化 Creditability。
+
+No of dependents 和 Telephone 必须锁定，Foreign Worker 不超过 2，要求 Creditability 逼近 1.0。
+
+设定 Account Balance 为常量，Duration of Credit (month) 介于 6 至 12，最大化 Creditability。
+
+条件：Payment Status of Previous Credit 锁定，Purpose 至少为 1。目标：Creditability 最大化。
+
+固定 Credit Amount 和 Value Savings/Stocks，Length of current employment 限制在 1 到 5 之间，使 Creditability 达到最大。
+
+保持 Instalment per cent 不变，Sex & Marital Status 小于 4，寻找 Creditability 逼近 1.0 的方案。
+
+Guarantors 和 Duration in Current address 锁定，Most valuable available asset 不低于 2，优化 Creditability 至极大值。
+
+约束 Age (years) 不变，Concurrent Credits 范围 [1, 3]，令 Creditability 最大化。
+
+锁定 Type of apartment，令 No of Credits at this Bank 在 1 到 3 之间，使 Creditability 逼近 1.0。
+
+在 Occupation 和 No of dependents 固定的前提下，Telephone 不超过 2，求 Creditability 最大化。
+
+维持 Foreign Worker 现状，Account Balance 控制在 2 以上，最大化 Creditability。
+
+Duration of Credit (month) 和 Payment Status of Previous Credit 必须锁定，Purpose 限制在 [0, 5]，要求 Creditability 逼近 1.0。
+
+设定 Credit Amount 为常量，Value Savings/Stocks 介于 2 至 5，最大化 Creditability。
+
+条件：Length of current employment 锁定，Instalment per cent 至少为 2。目标：Creditability 逼近 1.0。
+
+固定 Sex & Marital Status 和 Guarantors，Duration in Current address 限制在 3 以下，使 Creditability 最大化。
+
+保持 Most valuable available asset 不变，Age (years) 小于 30，寻找 Creditability 最大化的方案。
+
+Concurrent Credits 和 Type of apartment 锁定，No of Credits at this Bank 不低于 1，优化 Creditability。
+把 Account Balance 和 Duration of Credit (month) 钉死别动，Credit Amount 差不多在 1000 到 3000 就行，然后帮我把 Creditability 往高了拉。
+
+Payment Status of Previous Credit 别改了，Purpose 最多给到 4，能不能让 Creditability 冲到最高？
+
+帮我算算，Value Savings/Stocks 锁定，Length of current employment 只要不低于 2 就行，怎么让 Creditability 达到最稳？
+
+那个 Creditability 我想让它拉满。对了，Instalment per cent 锁死，Sex & Marital Status 放在 1 和 3 之间。
+
+Guarantors 和 Duration in Current address 原封不动，Age (years) 给个 25 到 35 的余地，Creditability 给我卡在 1.0 左右。
+
+只要 Creditability 能最大化，Most valuable available asset 必须锁住，Concurrent Credits 不能超过 2。
+
+Type of apartment 别去碰它，No of Credits at this Bank 至少得有 1。帮我把 Creditability 的数值搞上去。
+
+Creditability 越大越好。记住 Occupation 固定，No of dependents 在 1 到 2 里面选。
+
+把 Telephone 固定住，Foreign Worker 别超过 2，给我找个让 Creditability 逼近 1.0 的办法。
+
+Account Balance 和 Duration of Credit (month) 都别动，Credit Amount 给个 500 的下限，Creditability 给我玩命往上提。
+
+想要 Creditability 最大。前提是 Payment Status of Previous Credit 卡死，Purpose 放在 0 到 3 之间。
+
+Value Savings/Stocks 保持原样，Length of current employment 最多 5，最少 1，帮我把 Creditability 弄到最高。
+
+别动 Instalment per cent，Sex & Marital Status 不要超过 4，让 Creditability 越高越好就行。
+
+Guarantors 和 Duration in Current address 给我锁了，Age (years) 在 30 到 50 浮动，Creditability 给我拉满。
+
+Most valuable available asset 不准改，Concurrent Credits 至少给到 2，看看能不能让 Creditability 冲顶。
+
+Creditability 往死里拉，Type of apartment 固定，No of Credits at this Bank 设在 1 到 3 之间。
+
+Occupation 别动，No of dependents 给个 2 的上限，Creditability 逼近 1.0。
+
+把 Telephone 和 Foreign Worker 固定，Account Balance 最少 2，让 Creditability 最高。
+
+只要 Creditability 能最大化，Duration of Credit (month) 锁死，Credit Amount 控制在 1000 到 5000 就行。
+
+Payment Status of Previous Credit 别碰，Purpose 别低于 2，Creditability 给我拉满。
+
+Creditability 越大越好，Value Savings/Stocks 锁住，Length of current employment 放在 2 到 4 里面。
+
+Instalment per cent 保持原样，Sex & Marital Status 最多 3，帮我把 Creditability 弄到 1.0 左右。
+
+别动 Guarantors，Duration in Current address 不要超过 3，让 Creditability 越高越好就行。
+
+Age (years) 和 Concurrent Credits 给我锁了，Most valuable available asset 在 1 到 3 浮动，Creditability 给我拉满。
+
+Type of apartment 不准改，No of Credits at this Bank 至少给到 1，看看能不能让 Creditability 冲顶。
+
+Creditability 往死里拉，Occupation 固定，No of dependents 设在 1 到 2 之间。
+
+Telephone 别动，Foreign Worker 给个 1 的上限，Creditability 逼近 1.0。
+
+把 Account Balance 和 Credit Amount 固定，Duration of Credit (month) 最少 12，让 Creditability 最高。
+
+只要 Creditability 能最大化，Payment Status of Previous Credit 锁死，Purpose 控制在 1 到 5 就行。
+
+Value Savings/Stocks 别碰，Length of current employment 别低于 3，Creditability 给我拉满。
+
+Creditability 越大越好，Instalment per cent 锁住，Sex & Marital Status 放在 2 到 4 里面。
+
+Guarantors 保持原样，Duration in Current address 最多 4，帮我把 Creditability 弄到 1.0 左右。
+
+别动 Age (years)，Concurrent Credits 不要超过 2，让 Creditability 越高越好就行。
+
+Most valuable available asset 和 Type of apartment 给我锁了，No of Credits at this Bank 在 1 到 3 浮动，Creditability 给我拉满。
+
+Occupation 不准改，No of dependents 至少给到 1，看看能不能让 Creditability 冲顶。
+
+Creditability 往死里拉，Telephone 固定，Foreign Worker 设在 1 到 2 之间。
+
+Account Balance 别动，Duration of Credit (month) 给个 24 的上限，Creditability 逼近 1.0。
+
+把 Payment Status of Previous Credit 和 Purpose 固定，Credit Amount 最少 1000，让 Creditability 最高。
+
+只要 Creditability 能最大化，Value Savings/Stocks 锁死，Length of current employment 控制在 2 到 5 就行。
+
+Instalment per cent 别碰，Sex & Marital Status 别低于 2，Creditability 给我拉满。
+帮我把 Creditability 拉到最高。顺便提一下约束：Account Balance 和 Duration of Credit (month) 必须锁定，Credit Amount 只能在 500 到 2000 之间变动。
+
+为了让 Creditability 逼近 1.0，请锁定 Payment Status of Previous Credit，并确保 Purpose 不超过 4。
+
+极大化 Creditability 是我们的首要任务。在此之前，先固定 Value Savings/Stocks，然后把 Length of current employment 限制在 2 以上。
+
+我要求 Creditability 达到最大值。对应的条件是：Instalment per cent 和 Sex & Marital Status 保持不变，Guarantors 在 1 到 2 的区间内。
+
+能不能让 Creditability 冲顶？前提是 Duration in Current address 原封不动，Age (years) 的下限设为 30。
+
+让 Creditability 最大化。要求：Concurrent Credits 锁死，Most valuable available asset 控制在 1 到 3 之间。
+
+Creditability 必须逼近 1.0。不过 Type of apartment 不能改，No of Credits at this Bank 最多只能给到 2。
+
+最大化 Creditability。记住，Occupation 锁住，No of dependents 的范围是 1 到 2。
+
+把 Creditability 弄到 1.0 左右。条件：Telephone 保持原样，Foreign Worker 不能超过 1。
+
+Creditability 越高越好。别动 Account Balance，Duration of Credit (month) 不能低于 12。
+
+给我拉到最高的是 Creditability。不过 Payment Status of Previous Credit 和 Purpose 得锁了，Credit Amount 在 1000 到 5000 浮动。
+
+看看能不能让 Creditability 冲顶。Value Savings/Stocks 不准改，Length of current employment 至少给到 3。
+
+往死里拉 Creditability。条件是 Instalment per cent 固定，Sex & Marital Status 设在 2 到 4 之间。
+
+Creditability 逼近 1.0。Guarantors 别动，Duration in Current address 给个 3 的上限。
+
+让 Creditability 最大化。把 Age (years) 和 Concurrent Credits 固定，Most valuable available asset 最少 2。
+
+只要 Creditability 能最大化。Type of apartment 锁死，No of Credits at this Bank 控制在 1 到 3 就行。
+
+Creditability 给我拉满。Occupation 别碰，No of dependents 别低于 1。
+
+越大越好的是 Creditability。Telephone 锁住，Foreign Worker 放在 1 到 2 里面。
+
+帮我把 Creditability 弄到 1.0 左右。Account Balance 保持原样，Credit Amount 最多 3000。
+
+让 Creditability 越高越好就行。别动 Duration of Credit (month)，Payment Status of Previous Credit 不要超过 4。
+
+给我拉到最高的是 Creditability。Purpose 和 Value Savings/Stocks 得锁了，Length of current employment 在 2 到 5 浮动。
+
+看看能不能让 Creditability 冲顶。Instalment per cent 不准改，Sex & Marital Status 至少给到 2。
+
+往死里拉 Creditability。条件是 Guarantors 固定，Duration in Current address 设在 1 到 4 之间。
+
+Creditability 逼近 1.0。Most valuable available asset 别动，Age (years) 给个 40 的上限。
+
+让 Creditability 最大化。把 Concurrent Credits 和 Type of apartment 固定，No of Credits at this Bank 最少 1。
+
+只要 Creditability 能最大化。Occupation 锁死，No of dependents 控制在 1 到 2 就行。
+
+Creditability 给我拉满。Telephone 别碰，Foreign Worker 别低于 1。
+
+极大化 Creditability 是最终目标。请先固定 Account Balance 和 Duration of Credit (month)，并将 Credit Amount 限制在 [1000, 2000]。
+
+逼近 1.0 是对 Creditability 的要求。约束：Payment Status of Previous Credit 锁定，Purpose 不超过 3。
+
+目标是 Creditability 逼近 1.0。前提：Value Savings/Stocks 保持不变，Length of current employment 至少为 2。
+
+让 Creditability 绝对最大化。固定 Instalment per cent，限制 Sex & Marital Status 在 2 到 4 之间。
+
+Creditability 需要达到最大值。条件：Guarantors 锁定，Duration in Current address 控制在 4 以内。
+
+冲顶 Creditability。Age (years) 锁死，Most valuable available asset 的范围是 1 到 3。
+
+逼近 1.0 的是 Creditability。要求 Concurrent Credits 原封不动，Type of apartment 最多为 2。
+
+Creditability 越大越好。No of Credits at this Bank 保持现状，Occupation 在 2 到 4 之间。
+
+拉满 Creditability。别动 No of dependents，Telephone 不能低于 1。
+
+冲向顶点的是 Creditability。Foreign Worker 和 Account Balance 得锁了，Duration of Credit (month) 在 12 到 36 浮动。
+
+让 Creditability 逼近 1.0。Payment Status of Previous Credit 不准改，Credit Amount 至少给到 500。
+
+往死里拉 Creditability。条件是 Purpose 固定，Value Savings/Stocks 设在 2 到 5 之间。
+
+Creditability 必须最大化。Length of current employment 别动，Instalment per cent 给个 3 的上限。
+Account Balance 和 Duration of Credit (month) 冻结。Credit Amount 的上限是 4000，下限是 1000。麻烦把 Creditability 尽最大可能提升。
+
+把 Payment Status of Previous Credit 钉死。Purpose 最多给到 5，最低不能跌破 1。接下来尽量扩充 Creditability 的规模。
+
+除了 Value Savings/Stocks 可以在 2 到 5 之间微调，Length of current employment 不允许有任何变化。最后要看到 Creditability 冲向顶点。
+
+Instalment per cent 至少得有 2，但千万别越过 4 的红线。Sex & Marital Status 保持死锁。Creditability 尽量大。
+
+Guarantors 的峰值不能超过 3，Duration in Current address 保持当前状态。让 Creditability 逼近 1.0。
+
+锁死 Most valuable available asset。Age (years) 的底线是 25，没有上限要求。求 Creditability 的极大值。
+
+Concurrent Credits 的天花板是 3，Type of apartment 冻结不变。令 Creditability 最大化。
+
+保持 No of Credits at this Bank 固定，Occupation 限制在 2 至 4 之间。使 Creditability 尽量贴近 1.0。
+
+No of dependents 锁定。Telephone 不得高于 2，且不得低于 1。最大化 Creditability。
+
+约束 Foreign Worker 现状。Account Balance 的允许跨度为 2 到 4。拉满 Creditability。
+
+Duration of Credit (month) 钉死。Credit Amount 最高不超过 5000，最低不低于 500。Creditability 往大了调。
+
+Payment Status of Previous Credit 原封不动。Purpose 的区间定格在 1 到 4。让 Creditability 逼近 1.0。
+
+冻结 Value Savings/Stocks。Length of current employment 的边界是 2 到 5。Creditability 拉到极高。
+
+Instalment per cent 锁住。Sex & Marital Status 不能越过 1 的下限和 4 的上限。最大化 Creditability。
+
+Guarantors 保持。Duration in Current address 限定为 1 至 4 之间。Creditability 升到最大。
+
+锁定 Most valuable available asset。Age (years) 的浮动空间是 30 到 50。使 Creditability 逼近 1.0。
+
+Concurrent Credits 固定。Type of apartment 最多 3，最少 1。Creditability 必须要最大。
+
+No of Credits at this Bank 冻结。Occupation 的界限是 1 到 4。让 Creditability 冲顶。
+
+钉死 No of dependents。Telephone 必须在 1 到 2 这个框里。Creditability 尽量大。
+
+Foreign Worker 保持现状。Account Balance 不超过 4，不低于 2。最大化 Creditability。
+
+锁死 Duration of Credit (month) 和 Payment Status of Previous Credit。Credit Amount 的上限是 3000，下限是 1000。麻烦把 Creditability 往高了拉。
+
+把 Purpose 钉死。Value Savings/Stocks 最多给到 5，最低不能跌破 2。接下来尽量扩充 Creditability 的规模。
+
+除了 Length of current employment 可以在 1 到 4 之间微调，Instalment per cent 不允许有任何变化。最后要看到 Creditability 达到顶点。
+
+Sex & Marital Status 至少得有 2，但千万别越过 4 的红线。Guarantors 保持死锁。Creditability 尽量大。
+
+Duration in Current address 的峰值不能超过 4，Most valuable available asset 保持当前状态。让 Creditability 逼近 1.0。
+
+锁死 Age (years)。Concurrent Credits 的底线是 1，没有上限要求。求 Creditability 的极大值。
+
+Type of apartment 的天花板是 3，No of Credits at this Bank 冻结不变。令 Creditability 最大化。
+
+保持 Occupation 固定，No of dependents 限制在 1 至 2 之间。使 Creditability 尽量贴近 1.0。
+
+Telephone 锁定。Foreign Worker 不得高于 2，且不得低于 1。最大化 Creditability。
+
+约束 Account Balance 现状。Duration of Credit (month) 的允许跨度为 12 到 24。最大化 Creditability。
+
+Payment Status of Previous Credit 钉死。Purpose 最高不超过 5，最低不低于 1。Creditability 往大了调。
+
+Credit Amount 原封不动。Value Savings/Stocks 的区间定格在 2 到 4。让 Creditability 逼近 1.0。
+
+冻结 Length of current employment。Instalment per cent 的边界是 2 到 4。Creditability 压到最高。
+
+Sex & Marital Status 锁住。Guarantors 不能越过 1 的下限和 3 的上限。最大化 Creditability。
+
+Duration in Current address 保持。Most valuable available asset 限定为 1 至 4 之间。Creditability 升到最大。
+
+锁定 Age (years)。Concurrent Credits 的浮动空间是 1 到 3。使 Creditability 逼近 1.0。
+
+Type of apartment 固定。No of Credits at this Bank 最多 2，最少 1。Creditability 必须要最大。
+
+Occupation 冻结。No of dependents 的界限是 1 到 2。让 Creditability 冲顶。
+
+钉死 Telephone。Foreign Worker 必须在 1 到 2 这个框里。Creditability 尽量大。
+
+Account Balance 保持现状。Duration of Credit (month) 不超过 36，不低于 12。最大化 Creditability。
+Credit Amount 千万不能超过 5000，同时记住 Credit Amount 绝对不能少于 1000。Account Balance 和 Duration of Credit (month) 碰都不要碰。在这些限制下，Creditability 绝不能小（越大越好）。
+
+千万不要改变 Payment Status of Previous Credit 和 Purpose 的现状。至于 Value Savings/Stocks，不允许它跳出 2 到 5 这个区间。核心诉求是：Creditability 必须释放到最大。
+
+除了 Length of current employment 和 Instalment per cent 需要被严格固定之外，Sex & Marital Status 也是有规矩的：非 2 到 4 之间的数值不要。把 Creditability 最大化。
+
+绝不允许 Guarantors 发生变动。Duration in Current address 方面，不是 2 到 4 的不要。Creditability 要极大化，同时千万别忘记。
+
+切记：Most valuable available asset 和 Age (years) 必须锁死。Concurrent Credits 的数值不可能大于 3，也不可能小于 1。给我弄出个 Creditability 逼近 1.0 的方案。
+
+谁都不准动 Type of apartment。No of Credits at this Bank 的范围被死死卡在 1 到 2 之间，一点都不能多也不能少。要求 Creditability 越高越好。
+
+永远保持 Occupation 不变。No of dependents 除了在 1 到 2 里面选，没有第二条路。Creditability 必须最大化。
+
+锁定 Telephone，不准有例外。Foreign Worker 的值若是不在 1 到 2 之间就不行。让 Creditability 统统升到最高。
+
+Account Balance 是定死的。Duration of Credit (month) 的界限非常严格，下限 12，上限 36，绝不通融。目标：Creditability 逼近 1.0。
+
+坚决固定 Payment Status of Previous Credit。Credit Amount 不低于 500，不高于 3000，这是底线。Creditability 极大化。
+
+Purpose 和 Value Savings/Stocks 不能有任何闪失，必须固定。Length of current employment 除了 2 到 5，其他免谈。Creditability 要求最大化。
+
+Instalment per cent 别想动。Sex & Marital Status 只能屈居于 1 到 4 的范围内。Creditability 给我想办法冲到最高。
+
+无论如何保持 Guarantors 现状。Duration in Current address 的数值如果越过了 1 到 4 这个雷池，就不行。让 Creditability 贴近 1.0。
+
+Most valuable available asset 和 Age (years) 是锁住的，谁也别碰。Concurrent Credits 必须严丝合缝地在 1 到 3 之间。Creditability 越大越好。
+
+Type of apartment 绝对不能改。No of Credits at this Bank 只能在 1 到 2 的夹缝中生存。Creditability 逼近 1.0。
+
+不允许对 Occupation 进行修改。No of dependents 除了 1 到 2，哪都不许去。Creditability 往大了调。
+
+Telephone 必须维持原样。Foreign Worker 不得跳脱出 1 到 2 的范围。求 Creditability 的极大值。
+
+锁死 Account Balance。Duration of Credit (month) 的界限是 12 到 48，绝不妥协。让 Creditability 冲顶。
+
+Payment Status of Previous Credit 固定是铁律。Credit Amount 必须乖乖待在 1000 到 5000 里面。Creditability 尽量大。
+
+Value Savings/Stocks 保持现状，毫无商量余地。Length of current employment 不超过 5，不低于 2，这是死命令。最大化 Creditability。
+
+千万不能超过 4 的是 Instalment per cent，绝对不能少于 2 的也是 Instalment per cent。Sex & Marital Status 和 Guarantors 碰都不要碰。Creditability 坚决不能小。
+
+不要改变 Duration in Current address 的现状。至于 Most valuable available asset，不允许它跳出 1 到 3 这个区间。Creditability 必须释放到最大。
+
+除了 Age (years) 需要被严格固定之外，Concurrent Credits 也是有规矩的：非 1 到 3 之间的数值不要。把 Creditability 最大化。
+
+绝不允许 Type of apartment 发生变动。No of Credits at this Bank 方面，不是 1 到 2 的不要。Creditability 要极大化。
+
+切记：Occupation 必须锁死。No of dependents 的数值不可能大于 2，也不可能小于 1。给我弄出个 Creditability 逼近 1.0 的方案。
+
+谁都不准动 Telephone。Foreign Worker 的范围被死死卡在 1 到 2 之间。要求 Creditability 越高越好。
+
+永远保持 Account Balance 不变。Duration of Credit (month) 除了在 12 到 24 里面选，没有第二条路。Creditability 必须最大化。
+
+锁定 Payment Status of Previous Credit，不准有例外。Credit Amount 的值若是不在 500 到 2000 之间就不行。让 Creditability 统统升到最高。
+
+Purpose 是定死的。Value Savings/Stocks 的界限非常严格，下限 2，上限 5，绝不通融。目标：Creditability 逼近 1.0。
+
+坚决固定 Length of current employment。Instalment per cent 不低于 2，不高于 4，这是底线。Creditability 极大化。
+
+Sex & Marital Status 不能有任何闪失，必须固定。Guarantors 除了 1 到 3，其他免谈。Creditability 要求最大化。
+
+Duration in Current address 别想动。Most valuable available asset 只能屈居于 1 到 4 的范围内。Creditability 给我想办法冲到最高。
+
+无论如何保持 Age (years) 现状。Concurrent Credits 的数值如果越过了 1 到 3 这个雷池，就不行。让 Creditability 贴近 1.0。
+
+Type of apartment 是锁住的，谁也别碰。No of Credits at this Bank 必须严丝合缝地在 1 到 2 之间。Creditability 越大越好。
+
+Occupation 绝对不能改。No of dependents 只能在 1 到 2 的夹缝中生存。Creditability 逼近 1.0。
+
+不允许对 Telephone 进行修改。Foreign Worker 除了 1 到 2，哪都不许去。Creditability 往大了调。
+
+Account Balance 必须维持原样。Duration of Credit (month) 不得跳脱出 6 到 12 的范围。求 Creditability 的极大值。
+
+锁死 Payment Status of Previous Credit。Credit Amount 的界限是 1000 到 4000，绝不妥协。让 Creditability 冲顶。
+
+Purpose 固定是铁律。Value Savings/Stocks 必须乖乖待在 1 到 4 里面。Creditability 尽量大。
+
+Length of current employment 保持现状，毫无商量余地。Instalment per cent 不超过 4，不低于 2，这是死命令。最大化 Creditability。

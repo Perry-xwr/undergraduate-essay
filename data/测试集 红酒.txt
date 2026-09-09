@@ -1,0 +1,395 @@
+约束 fixed acidity 不超过 6，chlorides 锁定，优化目标为 quality 逼近 8.0。
+
+约束 alcohol 不超过 14，pH 锁定，优化目标为 quality 逼近 8.0。
+
+保持 fixed acidity 和 volatile acidity 不变，限制 residual sugar 在 1 到 9 之间，令 quality 达到最大化。
+
+保持 pH 和 residual sugar 不变，限制 alcohol 在 2 到 6 之间，令 quality 达到最大化。
+
+在 chlorides 和 sulphates 固定的前提下，fixed acidity 不超过 0.74，求 quality 最大化。
+
+锁定 citric acid，令 chlorides 在 16 到 98 之间变动，使 quality 逼近 8.0。
+
+设定 volatile acidity 为常量，total sulfur dioxide 介于 13 至 72，最大化 quality。
+
+设定 sulphates 为常量，fixed acidity 介于 0.44 至 1.09，最大化 quality。
+
+在 free sulfur dioxide 不低于 22 且 chlorides 不高于 67 的前提下，令 quality 达到最大值。
+
+将 free sulfur dioxide 和 sulphates 固定，residual sugar 的区间设为 [1, 9]，寻找使 quality 最大的方案。
+
+保持 alcohol 和 residual sugar 不变，限制 free sulfur dioxide 在 26 到 58 之间，令 quality 达到最大化。
+
+维持 sulphates 现状，令 pH 在 3.01 到 3.73 之间波动，要求 quality 最大化。
+
+锁定 total sulfur dioxide，令 density 在 0.991 到 0.999 之间变动，使 quality 逼近 8.0。
+
+将 density 和 sulphates 固定，residual sugar 的区间设为 [2, 10]，寻找使 quality 最大的方案。
+
+在 total sulfur dioxide 和 fixed acidity 固定的前提下，volatile acidity 不超过 1.06，求 quality 最大化。
+
+约束 citric acid 不超过 1.39，fixed acidity 锁定，优化目标为 quality 逼近 8.0。
+
+约束 free sulfur dioxide 不超过 70，density 锁定，优化目标为 quality 逼近 8.0。
+
+设定 alcohol 为常量，citric acid 介于 10 至 76，最大化 quality。
+
+维持 alcohol 现状，令 pH 在 3.16 到 3.69 之间波动，要求 quality 最大化。
+
+设定 residual sugar 为常量，density 介于 0.991 至 0.998，最大化 quality。
+
+设定 pH 为常量，total sulfur dioxide 介于 3.09 至 3.63，最大化 quality。
+
+维持 volatile acidity 现状，令 density 在 0.994 到 1.0 之间波动，要求 quality 最大化。
+
+将 fixed acidity 和 residual sugar 固定，citric acid 的区间设为 [3, 9]，寻找使 quality 最大的方案。
+
+在 chlorides 和 sulphates 固定的前提下，fixed acidity 不超过 0.93，求 quality 最大化。
+
+维持 chlorides 现状，令 density 在 0.994 到 0.997 之间波动，要求 quality 最大化。
+
+保持 fixed acidity 和 alcohol 不变，限制 chlorides 在 8 到 13 之间，令 quality 达到最大化。
+
+约束 total sulfur dioxide 不超过 93，density 锁定，优化目标为 quality 逼近 8.0。
+
+约束 residual sugar 不超过 8，sulphates 锁定，优化目标为 quality 逼近 8.0。
+
+将 total sulfur dioxide 和 fixed acidity 固定，volatile acidity 的区间设为 [17, 85]，寻找使 quality 最大的方案。
+
+将 citric acid 和 volatile acidity 固定，pH 的区间设为 [0.3, 0.81]，寻找使 quality 最大的方案。
+
+在 sulphates 不低于 0.38 且 pH 不高于 1.48 的前提下，令 quality 达到最大值。
+
+在 density 不低于 0.28 且 citric acid 不高于 0.82 的前提下，令 quality 达到最大值。
+
+锁定 chlorides，令 total sulfur dioxide 在 0.25 到 0.77 之间变动，使 quality 逼近 8.0。
+
+锁定 sulphates，令 free sulfur dioxide 在 0.22 到 1.13 之间变动，使 quality 逼近 8.0。
+
+维持 residual sugar 现状，令 density 在 1 到 7 之间波动，要求 quality 最大化。
+
+在 fixed acidity 不低于 16 且 chlorides 不高于 61 的前提下，令 quality 达到最大值。
+
+将 citric acid 和 free sulfur dioxide 固定，alcohol 的区间设为 [14, 50]，寻找使 quality 最大的方案。
+
+约束 volatile acidity 不超过 1.05，pH 锁定，优化目标为 quality 逼近 8.0。
+
+将 volatile acidity 和 fixed acidity 固定，density 的区间设为 [0.12, 1.34]，寻找使 quality 最大的方案。
+
+将 total sulfur dioxide 和 alcohol 固定，pH 的区间设为 [10, 11]，寻找使 quality 最大的方案。
+只要 quality 能最大化，residual sugar 必须锁住，alcohol 不能超过 14。
+
+只要 quality 能最大化，pH 必须锁住，alcohol 不能超过 13。
+
+帮我算算，density 锁定，volatile acidity 只要不低于 0.993 就行，怎么让 quality 达到最稳？
+
+把 pH 和 volatile acidity 钉死别动，free sulfur dioxide 差不多在 3.19 到 3.65 就行，然后帮我把 quality 往高了拉。
+
+把 pH 固定住，volatile acidity 别超过 0.94，给我找个让 quality 逼近 8.0 的办法。
+
+那个 quality 我想让它见顶。对了，total sulfur dioxide 锁死，chlorides 放在 25 和 71 之间。
+
+chlorides 别改了，citric acid 最多给到 0.81，能不能让 quality 冲到最高？
+
+把 citric acid 固定住，total sulfur dioxide 别超过 61，给我找个让 quality 逼近 8.0 的办法。
+
+只要 quality 能最大化，pH 必须锁住，total sulfur dioxide 不能超过 3.65。
+
+density 别去碰它，chlorides 至少得有 0.991。帮我把 quality 的数值搞上去。
+
+residual sugar 原封不动，citric acid 给个 2 到 9 的余地，quality 给我卡在 8.0 左右。
+
+density 别改了，residual sugar 最多给到 1.0，能不能让 quality 冲到最高？
+
+帮我算算，chlorides 锁定，residual sugar 只要不低于 0.27 就行，怎么让 quality 达到最稳？
+
+sulphates 原封不动，free sulfur dioxide 给个 0.17 到 1.37 的余地，quality 给我卡在 8.0 左右。
+
+只要 quality 能最大化，total sulfur dioxide 必须锁住，citric acid 不能超过 98。
+
+把 total sulfur dioxide 固定住，chlorides 别超过 1.06，给我找个让 quality 逼近 8.0 的办法。
+
+把 sulphates 固定住，chlorides 别超过 0.65，给我找个让 quality 逼近 8.0 的办法。
+
+citric acid 别去碰它，pH 至少得有 0.27。帮我把 quality 的数值搞上去。
+
+sulphates 别改了，density 最多给到 0.996，能不能让 quality 冲到最高？
+
+density 别去碰它，residual sugar 至少得有 0.994。帮我把 quality 的数值搞上去。
+
+把 residual sugar 固定住，pH 别超过 3.75，给我找个让 quality 逼近 8.0 的办法。
+
+把 fixed acidity 固定住，alcohol 别超过 13，给我找个让 quality 逼近 8.0 的办法。
+
+free sulfur dioxide 别改了，fixed acidity 最多给到 1.31，能不能让 quality 冲到最高？
+
+把 total sulfur dioxide 和 alcohol 钉死别动，chlorides 差不多在 21 到 66 就行，然后帮我把 quality 往高了拉。
+
+只要 quality 能最大化，pH 必须锁住，fixed acidity 不能超过 3.42。
+
+citric acid 原封不动，free sulfur dioxide 给个 0.1 到 0.67 的余地，quality 给我卡在 8.0 左右。
+
+把 total sulfur dioxide 固定住，alcohol 别超过 14，给我找个让 quality 逼近 8.0 的办法。
+
+把 volatile acidity 固定住，free sulfur dioxide 别超过 77，给我找个让 quality 逼近 8.0 的办法。
+
+把 total sulfur dioxide 和 residual sugar 钉死别动，density 差不多在 23 到 97 就行，然后帮我把 quality 往高了拉。
+
+total sulfur dioxide 别改了，density 最多给到 0.997，能不能让 quality 冲到最高？
+
+那个 quality 我想让它见顶。对了，chlorides 锁死，total sulfur dioxide 放在 0.37 和 1.15 之间。
+
+只要 quality 能最大化，pH 必须锁住，volatile acidity 不能超过 3.51。
+
+帮我算算，chlorides 锁定，pH 只要不低于 0.17 就行，怎么让 quality 达到最稳？
+
+把 free sulfur dioxide 和 alcohol 钉死别动，density 差不多在 28 到 86 就行，然后帮我把 quality 往高了拉。
+
+fixed acidity 原封不动，citric acid 给个 0.34 到 0.81 的余地，quality 给我卡在 8.0 左右。
+
+volatile acidity 别去碰它，pH 至少得有 0.32。帮我把 quality 的数值搞上去。
+
+density 原封不动，citric acid 给个 0.991 到 0.999 的余地，quality 给我卡在 8.0 左右。
+
+citric acid 别去碰它，total sulfur dioxide 至少得有 0.15。帮我把 quality 的数值搞上去。
+
+density 别去碰它，free sulfur dioxide 至少得有 0.992。帮我把 quality 的数值搞上去。
+
+只要 quality 能最大化，chlorides 必须锁住，sulphates 不能超过 0.77。
+我要求 quality 达到最大值。对应的条件是：density 和 free sulfur dioxide 保持不变，pH 在 0.994 到 1.0 的区间内。
+
+极大化 quality 是我们的首要任务。在此之前，先固定 residual sugar，然后把 total sulfur dioxide 限制在 2 以上。
+
+极大化 quality 是我们的首要任务。在此之前，先固定 pH，然后把 residual sugar 限制在 3.19 以上。
+
+极大化 quality 是我们的首要任务。在此之前，先固定 sulphates，然后把 total sulfur dioxide 限制在 0.35 以上。
+
+帮我把 quality 拉到最高。顺便提一下约束：fixed acidity 和 residual sugar 必须锁定，citric acid 只能在 2 到 9 之间变动。
+
+能不能让 quality 冲顶？前提是 free sulfur dioxide 原封不动，fixed acidity 的下限设为 25。
+
+最大化 quality。记住，total sulfur dioxide 锁住，volatile acidity 的范围是 27 到 90。
+
+最大化 quality。记住，density 锁住，free sulfur dioxide 的范围是 0.994 到 1.0。
+
+让 quality 最大化。要求：citric acid 锁死，chlorides 控制在 0.13 到 1.34 之间。
+
+能不能让 quality 冲顶？前提是 fixed acidity 原封不动，chlorides 的下限设为 0.15。
+
+帮我把 quality 拉到最高。顺便提一下约束：residual sugar 和 alcohol 必须锁定，pH 只能在 2 到 6 之间变动。
+
+极大化 quality 是我们的首要任务。在此之前，先固定 density，然后把 volatile acidity 限制在 0.994 以上。
+
+让 quality 最大化。要求：residual sugar 锁死，chlorides 控制在 1 到 9 之间。
+
+能不能让 quality 冲顶？前提是 fixed acidity 原封不动，alcohol 的下限设为 0.28。
+
+极大化 quality 是我们的首要任务。在此之前，先固定 sulphates，然后把 volatile acidity 限制在 0.24 以上。
+
+帮我把 quality 拉到最高。顺便提一下约束：volatile acidity 和 sulphates 必须锁定，chlorides 只能在 0.42 到 1.37 之间变动。
+
+帮我把 quality 拉到最高。顺便提一下约束：free sulfur dioxide 和 citric acid 必须锁定，chlorides 只能在 26 到 58 之间变动。
+
+quality 必须逼近 8.0。不过 fixed acidity 不能改，sulphates 最多只能给到 1.13。
+
+为了让 quality 逼近 8.0，请锁定 density，并确保 free sulfur dioxide 不超过 0.999。
+
+帮我把 quality 拉到最高。顺便提一下约束：fixed acidity 和 density 必须锁定，free sulfur dioxide 只能在 17 到 86 之间变动。
+
+帮我把 quality 拉到最高。顺便提一下约束：free sulfur dioxide 和 fixed acidity 必须锁定，density 只能在 15 到 79 之间变动。
+
+我要求 quality 达到最大值。对应的条件是：volatile acidity 和 alcohol 保持不变，pH 在 0.23 到 1.48 的区间内。
+
+能不能让 quality 冲顶？前提是 residual sugar 原封不动，citric acid 的下限设为 2。
+
+quality 必须逼近 8.0。不过 chlorides 不能改，sulphates 最多只能给到 1.31。
+
+极大化 quality 是我们的首要任务。在此之前，先固定 sulphates，然后把 alcohol 限制在 0.43 以上。
+
+quality 必须逼近 8.0。不过 total sulfur dioxide 不能改，residual sugar 最多只能给到 58。
+
+quality 必须逼近 8.0。不过 free sulfur dioxide 不能改，fixed acidity 最多只能给到 85。
+
+帮我把 quality 拉到最高。顺便提一下约束：alcohol 和 sulphates 必须锁定，chlorides 只能在 10 到 11 之间变动。
+
+quality 必须逼近 8.0。不过 citric acid 不能改，free sulfur dioxide 最多只能给到 1.05。
+
+能不能让 quality 冲顶？前提是 fixed acidity 原封不动，alcohol 的下限设为 0.1。
+
+极大化 quality 是我们的首要任务。在此之前，先固定 free sulfur dioxide，然后把 chlorides 限制在 13 以上。
+
+帮我把 quality 拉到最高。顺便提一下约束：total sulfur dioxide 和 fixed acidity 必须锁定，volatile acidity 只能在 11 到 73 之间变动。
+
+帮我把 quality 拉到最高。顺便提一下约束：fixed acidity 和 total sulfur dioxide 必须锁定，free sulfur dioxide 只能在 28 到 58 之间变动。
+
+最大化 quality。记住，pH 锁住，volatile acidity 的范围是 3.12 到 3.66。
+
+让 quality 最大化。要求：alcohol 锁死，sulphates 控制在 9 到 12 之间。
+
+我要求 quality 达到最大值。对应的条件是：total sulfur dioxide 和 pH 保持不变，alcohol 在 12 到 88 的区间内。
+
+让 quality 最大化。要求：chlorides 锁死，total sulfur dioxide 控制在 0.25 到 1.32 之间。
+
+为了让 quality 逼近 8.0，请锁定 free sulfur dioxide，并确保 total sulfur dioxide 不超过 70。
+
+极大化 quality 是我们的首要任务。在此之前，先固定 sulphates，然后把 density 限制在 0.17 以上。
+
+为了让 quality 逼近 8.0，请锁定 pH，并确保 volatile acidity 不超过 3.69。
+sulphates 的天花板是 0.81，free sulfur dioxide 冻结不变。令 quality 尽可能最大化。
+
+citric acid 的峰值不能超过 1.05，pH 保持当前状态。让 quality 逼近 8.0。
+
+chlorides 的峰值不能超过 1.03，free sulfur dioxide 保持当前状态。让 quality 逼近 8.0。
+
+citric acid 至少得有 0.13，但千万别越过 1.3 的红线。free sulfur dioxide 保持死锁。quality 尽量大。
+
+锁死 alcohol。volatile acidity 的底线是 9，没有上限要求。求 quality 的极大值。
+
+free sulfur dioxide 和 total sulfur dioxide 冻结。chlorides 的上限是 98，下限是 25。麻烦把 quality 尽最大可能提升。
+
+保持 total sulfur dioxide 固定，chlorides 限制在 22 至 67 之间。使 quality 尽量贴近 8.0。
+
+除了 alcohol 可以在 0.44 到 0.69 之间微调，sulphates 不允许有任何变化。最后要看到 quality 冲向顶点。
+
+alcohol 至少得有 10，但千万别越过 13 的红线。pH 保持死锁。quality 尽量大。
+
+锁死 pH。volatile acidity 的底线是 2.82，没有上限要求。求 quality 的极大值。
+
+free sulfur dioxide 和 total sulfur dioxide 冻结。residual sugar 的上限是 95，下限是 26。麻烦把 quality 尽最大可能提升。
+
+sulphates 的天花板是 0.98，chlorides 冻结不变。令 quality 尽可能最大化。
+
+pH 至少得有 3.0，但千万别越过 3.7 的红线。total sulfur dioxide 保持死锁。quality 尽量大。
+
+density 的天花板是 0.999，total sulfur dioxide 冻结不变。令 quality 尽可能最大化。
+
+density 的峰值不能超过 0.999，alcohol 保持当前状态。让 quality 逼近 8.0。
+
+sulphates 至少得有 0.15，但千万别越过 0.76 的红线。density 保持死锁。quality 尽量大。
+
+alcohol 的天花板是 14，sulphates 冻结不变。令 quality 尽可能最大化。
+
+保持 residual sugar 固定，volatile acidity 限制在 3 至 8 之间。使 quality 尽量贴近 8.0。
+
+锁死 free sulfur dioxide。citric acid 的底线是 29，没有上限要求。求 quality 的极大值。
+
+sulphates 至少得有 0.32，但千万别越过 1.13 的红线。residual sugar 保持死锁。quality 尽量大。
+
+alcohol 的天花板是 11，total sulfur dioxide 冻结不变。令 quality 尽可能最大化。
+
+volatile acidity 的天花板是 1.25，pH 冻结不变。令 quality 尽可能最大化。
+
+把 chlorides 钉死。total sulfur dioxide 最多给到 0.81，最低不能跌破 0.46。接下来尽量扩充 quality 的规模。
+
+chlorides 的天花板是 1.12，alcohol 冻结不变。令 quality 尽可能最大化。
+
+锁死 citric acid。density 的底线是 0.34，没有上限要求。求 quality 的极大值。
+
+保持 residual sugar 固定，alcohol 限制在 1 至 5 之间。使 quality 尽量贴近 8.0。
+
+sulphates 的天花板是 1.24，pH 冻结不变。令 quality 尽可能最大化。
+
+sulphates 和 alcohol 冻结。total sulfur dioxide 的上限是 13，下限是 9。麻烦把 quality 尽最大可能提升。
+
+保持 residual sugar 固定，sulphates 限制在 2 至 6 之间。使 quality 尽量贴近 8.0。
+
+把 total sulfur dioxide 钉死。citric acid 最多给到 71，最低不能跌破 15。接下来尽量扩充 quality 的规模。
+
+把 fixed acidity 钉死。alcohol 最多给到 1.34，最低不能跌破 0.28。接下来尽量扩充 quality 的规模。
+
+保持 residual sugar 固定，total sulfur dioxide 限制在 2 至 8 之间。使 quality 尽量贴近 8.0。
+
+把 citric acid 钉死。free sulfur dioxide 最多给到 1.39，最低不能跌破 0.41。接下来尽量扩充 quality 的规模。
+
+把 fixed acidity 钉死。volatile acidity 最多给到 1.48，最低不能跌破 0.25。接下来尽量扩充 quality 的规模。
+
+alcohol 至少得有 10，但千万别越过 11 的红线。free sulfur dioxide 保持死锁。quality 尽量大。
+
+sulphates 的天花板是 1.42，total sulfur dioxide 冻结不变。令 quality 尽可能最大化。
+
+把 residual sugar 钉死。free sulfur dioxide 最多给到 5，最低不能跌破 2。接下来尽量扩充 quality 的规模。
+
+sulphates 至少得有 0.2，但千万别越过 1.33 的红线。pH 保持死锁。quality 尽量大。
+
+保持 volatile acidity 固定，residual sugar 限制在 0.32 至 0.85 之间。使 quality 尽量贴近 8.0。
+
+chlorides 的峰值不能超过 1.05，pH 保持当前状态。让 quality 逼近 8.0。
+除了 residual sugar 和 free sulfur dioxide 需要被严格固定之外，alcohol 也是有规矩的：非 2 到 9 之间的数值不要。把 quality 最大化。
+
+谁都不准动 citric acid。residual sugar 的范围被死死卡在 0.4 到 0.77 之间，一点都不能多也不能少。要求 quality 越高越好。
+
+切记：alcohol 和 sulphates 必须锁死。volatile acidity 的数值不可能大于 14，也不可能小于 10。给我弄出个 quality 逼近 8.0 的方案。
+
+free sulfur dioxide 千万不能超过 93，同时绝对不能少于 20。chlorides 和 fixed acidity 碰都不要碰。在此限制下，quality 绝不能小（越大越好）。
+
+切记：total sulfur dioxide 和 fixed acidity 必须锁死。free sulfur dioxide 的数值不可能大于 80，也不可能小于 21。给我弄出个 quality 逼近 8.0 的方案。
+
+谁都不准动 total sulfur dioxide。residual sugar 的范围被死死卡在 11 到 56 之间，一点都不能多也不能少。要求 quality 越高越好。
+
+谁都不准动 pH。fixed acidity 的范围被死死卡在 2.87 到 3.65 之间，一点都不能多也不能少。要求 quality 越高越好。
+
+除了 pH 和 total sulfur dioxide 需要被严格固定之外，fixed acidity 也是有规矩的：非 2.92 到 3.69 之间的数值不要。把 quality 最大化。
+
+绝不允许 total sulfur dioxide 发生变动。chlorides 方面，不是 18 到 97 的不要。quality 要极大化，千万别忘记。
+
+千万不要改变 pH 和 chlorides 的现状。至于 sulphates，不允许它跳出 3.16 到 3.76 这个区间。诉求是：quality 必须释放到最大。
+
+除了 fixed acidity 和 volatile acidity 需要被严格固定之外，alcohol 也是有规矩的：非 0.23 到 1.31 之间的数值不要。把 quality 最大化。
+
+永远保持 citric acid 不变。total sulfur dioxide 除了在 0.42 到 1.44 里面选，没有第二条路。quality 必须最大化。
+
+谁都不准动 total sulfur dioxide。pH 的范围被死死卡在 25 到 65 之间，一点都不能多也不能少。要求 quality 越高越好。
+
+谁都不准动 pH。chlorides 的范围被死死卡在 3.12 到 3.6 之间，一点都不能多也不能少。要求 quality 越高越好。
+
+千万不要改变 chlorides 和 alcohol 的现状。至于 volatile acidity，不允许它跳出 0.28 到 1.08 这个区间。诉求是：quality 必须释放到最大。
+
+除了 citric acid 和 total sulfur dioxide 需要被严格固定之外，fixed acidity 也是有规矩的：非 0.4 到 1.25 之间的数值不要。把 quality 最大化。
+
+锁定 volatile acidity，不准有例外。free sulfur dioxide 的值若是不在 0.38 到 1.3 之间就不行。让 quality 统统升到最高。
+
+切记：residual sugar 和 alcohol 必须锁死。pH 的数值不可能大于 10，也不可能小于 3。给我弄出个 quality 逼近 8.0 的方案。
+
+residual sugar 千万不能超过 9，同时绝对不能少于 3。chlorides 和 pH 碰都不要碰。在此限制下，quality 绝不能小（越大越好）。
+
+绝不允许 pH 发生变动。volatile acidity 方面，不是 2.86 到 3.73 的不要。quality 要极大化，千万别忘记。
+
+谁都不准动 pH。chlorides 的范围被死死卡在 3.03 到 3.51 之间，一点都不能多也不能少。要求 quality 越高越好。
+
+永远保持 density 不变。citric acid 除了在 0.992 到 1.0 里面选，没有第二条路。quality 必须最大化。
+
+永远保持 residual sugar 不变。alcohol 除了在 1 到 5 里面选，没有第二条路。quality 必须最大化。
+
+谁都不准动 chlorides。free sulfur dioxide 的范围被死死卡在 0.1 到 0.94 之间，一点都不能多也不能少。要求 quality 越高越好。
+
+citric acid 千万不能超过 1.03，同时绝对不能少于 0.43。chlorides 和 volatile acidity 碰都不要碰。在此限制下，quality 绝不能小（越大越好）。
+
+切记：total sulfur dioxide 和 density 必须锁死。residual sugar 的数值不可能大于 68，也不可能小于 21。给我弄出个 quality 逼近 8.0 的方案。
+
+除了 chlorides 和 volatile acidity 需要被严格固定之外，alcohol 也是有规矩的：非 0.32 到 1.15 之间的数值不要。把 quality 最大化。
+
+绝不允许 fixed acidity 发生变动。alcohol 方面，不是 0.47 到 0.77 的不要。quality 要极大化，千万别忘记。
+
+total sulfur dioxide 千万不能超过 80，同时绝对不能少于 13。volatile acidity 和 fixed acidity 碰都不要碰。在此限制下，quality 绝不能小（越大越好）。
+
+千万不要改变 chlorides 和 alcohol 的现状。至于 pH，不允许它跳出 0.17 到 0.69 这个区间。诉求是：quality 必须释放到最大。
+
+锁定 free sulfur dioxide，不准有例外。chlorides 的值若是不在 21 到 56 之间就不行。让 quality 统统升到最高。
+
+切记：volatile acidity 和 fixed acidity 必须锁死。chlorides 的数值不可能大于 0.74，也不可能小于 0.22。给我弄出个 quality 逼近 8.0 的方案。
+
+谁都不准动 volatile acidity。citric acid 的范围被死死卡在 0.49 到 1.25 之间，一点都不能多也不能少。要求 quality 越高越好。
+
+永远保持 density 不变。fixed acidity 除了在 0.993 到 0.999 里面选，没有第二条路。quality 必须最大化。
+
+除了 pH 和 volatile acidity 需要被严格固定之外，density 也是有规矩的：非 2.92 到 3.49 之间的数值不要。把 quality 最大化。
+
+total sulfur dioxide 千万不能超过 95，同时绝对不能少于 20。volatile acidity 和 free sulfur dioxide 碰都不要碰。在此限制下，quality 绝不能小（越大越好）。
+
+切记：free sulfur dioxide 和 citric acid 必须锁死。total sulfur dioxide 的数值不可能大于 72，也不可能小于 18。给我弄出个 quality 逼近 8.0 的方案。
+
+千万不要改变 free sulfur dioxide 和 residual sugar 的现状。至于 alcohol，不允许它跳出 20 到 69 这个区间。诉求是：quality 必须释放到最大。
+
+永远保持 chlorides 不变。fixed acidity 除了在 0.28 到 1.17 里面选，没有第二条路。quality 必须最大化。
+
+千万不要改变 residual sugar 和 pH 的现状。至于 alcohol，不允许它跳出 1 到 7 这个区间。诉求是：quality 必须释放到最大。
